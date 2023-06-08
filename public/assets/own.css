@@ -1,0 +1,25 @@
+.nav-pills .nav-link:hover {
+    color: white;
+}
+
+
+.container-fluid {
+  margin-top: 6px;
+}
+
+.product-img {
+  width: 200px;
+  height: 200px;
+}
+
+.bt{
+  margin-right: 6px;
+}
+
+.date{
+  border-bottom: 4px white solid;
+}
+
+.ml-10{
+  margin-left: 10px;
+}
