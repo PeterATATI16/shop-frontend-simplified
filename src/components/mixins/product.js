@@ -61,10 +61,6 @@ export default {
     prix_total() {
       this.product.total = this.product.price * this.product.qty;
     },
-
-    saveImage(e) {
-      this.image = e.target.files[0];
-  },
     
   },
 

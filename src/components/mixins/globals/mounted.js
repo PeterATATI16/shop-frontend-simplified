@@ -8,4 +8,5 @@ export default {
     this.spentList();
     this.withdrawalList();
   },
+
 }

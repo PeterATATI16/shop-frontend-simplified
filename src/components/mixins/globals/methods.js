@@ -49,7 +49,7 @@ export default {
             case '<':
               return modele[attribute] < value;
             case '=':
-              return modele[attribute] = value;
+              return modele[attribute] == value;
             default:
               return false;
           }

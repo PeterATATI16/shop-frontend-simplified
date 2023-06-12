@@ -1,7 +1,6 @@
 import HomeView from "../../views/HomeView.vue";
 import FooterComponent from "../../views/adminlte/FooterComponent.vue";
 
-import { mapGetters, mapActions } from "vuex";
 
 /*Mixins*/
 import datas from "../globals/datas";

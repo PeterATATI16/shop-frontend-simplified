@@ -107,9 +107,6 @@
                       placeholder=""
                     />
                   </div>
-                  <p v-show="addConfirm" class="text-success">
-                    le produit a été enrégistré avec success
-                  </p>
                 </div>
                 <!-- /.card-body -->
 

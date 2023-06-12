@@ -102,9 +102,6 @@
                     placeholder=""
                   />
                 </div>
-                <p v-show="updateConfirm" class="text-success">
-                  le produit a été mis à jour avec success
-                </p>
                 <div
                   class="
                     blog-img

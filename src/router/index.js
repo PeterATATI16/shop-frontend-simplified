@@ -48,13 +48,6 @@ import RegisterComponent from '@/components/auth/RegisterComponent.vue'
 import NewUser from '@/components/auth/NewUser.vue'
 import UpdateUser from '@/components/auth/UpdateUser.vue'
 
-/*----------------------------------------------------------------------------- */
-
-// Modeles
-import ModeleComponent from '@/components/modeles/modele/ModeleComponent.vue'
-import NewModele from '@/components/modeles/modele/NewModele.vue'
-import UpdateModele from '@/components/modeles/modele/UpdateModele.vue'
-
 // Routes
 
 const routes = [
@@ -321,38 +314,6 @@ const routes = [
         component: UpdateUser,
         meta: {
             title: "update user",
-            requiresAuth: true
-        }
-    },
-
-    
-    /*----------------------------------------------------------------------------- */
-
-    // modele
-    {
-        name: 'ModeleComponent',
-        path: '/modele',
-        component: ModeleComponent,
-        meta: {
-            title: 'modeles',
-            requiresAuth: true
-        }
-    },
-    {
-        name: 'NewModele',
-        path: '/new-modele',
-        component: NewModele,
-        meta: {
-            title: 'new modele',
-            requiresAuth: true
-        }
-    },
-    {
-        name: 'UpdateModele',
-        path: '/update-modele/edit/:id?',
-        component: UpdateModele,
-        meta: {
-            title: "modele update",
             requiresAuth: true
         }
     },

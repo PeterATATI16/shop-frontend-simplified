@@ -8,9 +8,7 @@ export default {
 
   data() {
     return {
-      category: {
-        name: "",
-      },
+      
     };
   },
 
